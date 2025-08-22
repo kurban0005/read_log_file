@@ -60,8 +60,8 @@ Log Analyzer - скрипт для обработки логов и генера
 Логи должны быть в формате JSON, где каждая строка представляет собой запись лога. Например:
 
 ```
-{"@timestamp": "2025-06-22T12:00:00", "url": "/api/v1/resource", "response_time": 200, "user_agent": "Mozilla/5.0"}
-{"@timestamp": "2025-06-22T12:05:00", "url": "/api/v1/resource", "response_time": 300, "user_agent": "Mozilla/5.0"}
+{"@timestamp": "2025-06-22T12:00:00", "url": "/api/v1/resource", "response_time": 200, "http_user_agent": "Mozilla/5.0"}
+{"@timestamp": "2025-06-22T12:05:00", "url": "/api/v1/resource", "response_time": 300, "http_user_agent": "Mozilla/5.0"}
 ```
 
 # Вывод отчета:
